@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header > h1 {
+    font-size: 5em;
+    font-family: sans-serif;
+    color: darkgreen;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+nav {
+    background-color: lightgreen;
+    color: lightgrey;
+    padding: 5px;
+}
+
+nav > ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0 10px;
+}
+
+main > p {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+main > ul > li {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: lightgreen;
+    color: black;
+    padding: 5px;
+    text-align: justify;
+}
