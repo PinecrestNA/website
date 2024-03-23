@@ -24,11 +24,17 @@ nav > ul {
     padding: 0;
 }
 
+nav > ul > li {
+    display: inline;
+    color: black;
+    padding: 0 3px;
+}
+
 main {
     padding: 0 10px;
 }
 
-main > p {
+p {
     font-family: sans-serif;
     font-size: 1.2em;
     text-align: justify;
@@ -39,9 +45,27 @@ main > ul > li {
     font-size: 1.2em;
 }
 
+main > article > ul > li {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
 footer {
     background-color: lightgreen;
     color: black;
     padding: 5px;
     text-align: justify;
+}
+
+#pinecrest-map {
+    display: block;
+    height: 350px;
+}
+
+#draft-label {
+    color: red;
+}
+
+#purpose {
+    font-style: italic;
 }
