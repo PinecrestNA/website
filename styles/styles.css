@@ -2,15 +2,6 @@ body {
     margin: 0;
 }
 
-header > h1 {
-    font-size: 5em;
-    font-family: sans-serif;
-    color: darkgreen;
-    text-align: center;
-    margin: 0;
-    padding: 5px 0;
-}
-
 nav {
     background-color: lightgreen;
     color: lightgrey;
@@ -59,9 +50,22 @@ footer {
 
 table {
     table-layout: fixed;
-    width: 50%;
+    width: 50vw;
     border-collapse: collapse;
     border: 3px solid darkgreen;
+    font-size: 1.2em;
+}
+
+@media (max-width: 900px) {
+    table {width: 96vw;}
+}
+
+thead th:nth-child(1) {
+    width: 80%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
 }
 
 th {
@@ -74,9 +78,27 @@ td {
     padding: 0 0 0 5px;
 }
 
+#title-bar {
+    display: flex;
+}
+
+#na-logo {
+    height: 5vw;
+    padding: 1vh 1vw;
+}
+
+#na-title {
+    font-size: 5vw;
+    font-family: sans-serif;
+    color: darkgreen;
+    text-align: left;
+    margin: 0;
+    padding: 1vh 0 1vh 1vw;
+}
+
 #pinecrest-map {
     display: block;
-    height: 350px;
+    width: 30vw;
 }
 
 #draft-label {
@@ -85,4 +107,12 @@ td {
 
 #purpose {
     font-style: italic;
+}
+
+#interests-chart {
+    display: block;
+}
+
+#meeting-announcement {
+    font-weight: bold;
 }
