@@ -83,6 +83,18 @@ td {
     padding: 0 0 0 5px;
 }
 
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
 #title-bar {
     display: flex;
 }
@@ -104,6 +116,17 @@ td {
 #pinecrest-map {
     display: block;
     width: 30vw;
+}
+
+#pinecrest-event {
+    display: block;
+    margin-bottom: 10px;
+    @media (width <= 650px) {
+        width: 90vw;
+    }
+    @media (width > 650px) {
+        width: 50vw;
+    }
 }
 
 #draft-label {
