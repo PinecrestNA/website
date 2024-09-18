@@ -96,8 +96,14 @@ td {
 }
 
 .sponsor-logo {
-    display: block; 
-    background-color: black;    
+    display: block;
+    padding-bottom: 10px;
+    @media (width <= 650px) {
+        width: 10vw;
+    }
+    @media (width > 650px) {
+        width: 50vw;
+    }
 }
 
 #title-bar {
@@ -130,7 +136,7 @@ td {
         width: 90vw;
     }
     @media (width > 650px) {
-        width: 50vw;
+        width: 30vw;
     }
 }
 
