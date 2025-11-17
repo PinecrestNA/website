@@ -95,6 +95,12 @@ td {
     justify-content: center;  
 }
 
+.home-text {
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+}
+
 .sponsor-logo {
     display: block;
     padding-bottom: 10px;
