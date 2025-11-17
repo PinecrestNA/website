@@ -98,7 +98,12 @@ td {
 .home-text {
     display: block;
     text-align: center;
-    font-size: 3vh;
+    @media (width <= 650px) {
+        font-size: 1.5vh;
+    }
+    @media (width > 650px) {
+        font-size: 3vh;
+    }
 }
 
 .sponsor-logo {
