@@ -147,7 +147,7 @@ td {
         width: 90vw;
     }
     @media (width > 650px) {
-        width: 10vw;
+        width: 20vw;
     }
 }
 
